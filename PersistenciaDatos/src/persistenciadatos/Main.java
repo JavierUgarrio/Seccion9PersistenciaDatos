@@ -25,6 +25,9 @@ public class Main {
         System.out.println(lista1.remove(0));
         
         System.out.println(lista1);
+        //elimina toda la lista el metodo clear
+        lista1.clear();
+        System.out.println(lista1);
     }
     
 }
