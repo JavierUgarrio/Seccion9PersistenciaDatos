@@ -5,8 +5,11 @@ public class Main {
     public static void main(String[] args) {
       
           //ruta relativa
-          crearArchivo("archivos\\Hola Archivo.txt");
+          //crearArchivo("archivos\\Hola Archivo.txt");
           crearArchivo("archivos\\Segundo Archivo.txt");
+          
+          escribirArchivo("archivos\\Hola Archivo.txt", "Hola Mundo desde Java");
+          escribirArchivo("archivos\\Hola Archivo.txt", "Hola Mundo desde Java");
 //        //List es una interface 
 //        List lista1 = new ArrayList();
 //        lista1.add(5);
