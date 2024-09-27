@@ -10,6 +10,8 @@ public class Main {
           
           escribirArchivo("archivos\\Hola Archivo.txt", "Hola Mundo desde Java");
           escribirArchivo("archivos\\Hola Archivo.txt", "Hola Mundo desde Java");
+          
+          leerArchivo("archivos\\Hola Archivo.txt");
 //        //List es una interface 
 //        List lista1 = new ArrayList();
 //        lista1.add(5);
