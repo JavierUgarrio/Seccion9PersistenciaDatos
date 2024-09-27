@@ -49,4 +49,9 @@ public class ManejoArchivos {
             ex.printStackTrace(System.out);
         }
     }
+    public static void eliminarArchivo(String nombreArchivo){
+        File archivo = new File(nombreArchivo);
+        archivo.delete();
+        System.out.println("archivo eliminado");
+    }
 }
